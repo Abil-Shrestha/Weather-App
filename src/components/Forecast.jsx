@@ -11,8 +11,8 @@ const Forecast = ({title, items}) => {
         
         <div className="flex flex-row items-center justify-between text-white">
         {items.map((item) => (
-            <div className="flex flex-col items-center justify-center">
-                <p className="font-light text-sm">{item.title}</p>
+            <div className="flex flex-col items-center justify-center" >
+                <p className="font-light text-sm" >{item.title}</p>
                 <img  src={iconUrlFromCode(item.icon)}
                     className="w-12 my-1 "
                     alt=""
